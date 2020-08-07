@@ -8,23 +8,23 @@
     this.name =  name;
     this.ingredients = ingredients;
     this.instructions = instructions;
-    this.type = type;
   }
   isSweet() {
+    this.type = type;
     return this.type === 'cake';
   }
 }
 
 const recipes = [
-  new Recipe(1, 'chocolate cake'),
-  new Recipe(2, 'Banana cake', {ingredients:['flour', 'salt', 'banana'], type: 'cake'})
+new Recipe(1, 'chocsolate cake'),
+new Recipe(2, 'Banasna cake', {ingredients:['flour', 'salt', 'banana'], type: 'cake'})
 ];
 
 function findRecipeById(id) {
   return recipes.find(recipe => recipe.id === id);
 }
 
-function printRecipes(id) {
+function printRecipesAll(id) {
   const recipe = findRecipeById(id);
   
   let recipeName = recipe && recipe.name ? recipe.name : 'noName';
@@ -36,6 +36,6 @@ function printRecipes(id) {
     console.log(`The recipe isnt sweet`); 
   }
 }
-printRecipes(1);
-printRecipes(2);
-printRecipes(3);
+printRecipesAll(1);
+printRecipesAll(2);
+printRecipesAll(3);
