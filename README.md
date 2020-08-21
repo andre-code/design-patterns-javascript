@@ -23,6 +23,7 @@ Structural Design Patterns are Design Patterns that ease the design by identifyi
 Behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
 
 - Null Object: TDesigned to act as a default value of an object
+- Strategy: Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
 - Interpreter (pending): Implements a specialized language.
 - Iterator (pending): Accesses the elements of an object sequentially without exposing its underlying representation.
 - Memento (pending): Provides the ability to restore an object to its previous state.
