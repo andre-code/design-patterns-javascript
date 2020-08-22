@@ -15,7 +15,7 @@ Creational design patterns are design patterns that deal with object creation me
 ### Structural Design Patterns
 Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
 
-- Facade (pending): Provides a simple interface to a more complex underlying object
+- Facade: Provides a simple interface to a more complex underlying object
 - Decorator (pending): Allows for an object’s behavior to be extended dynamically at run time.
 - Proxy (pending): Provides a placeholder interface to an underlying object to control access, reduce cost, or reduce complexity.
 
@@ -27,4 +27,4 @@ Behavioral design patterns are design patterns that identify common communicatio
 - Interpreter (pending): Implements a specialized language.
 - Iterator (pending): Accesses the elements of an object sequentially without exposing its underlying representation.
 - Memento (pending): Provides the ability to restore an object to its previous state.
-- Observer(pending): Is a publish/subscribe pattern which allows a number of observer objects to see an event.
+- Observer: Is a publish/subscribe pattern which allows a number of observer objects to see an event.
