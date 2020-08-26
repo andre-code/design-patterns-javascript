@@ -16,7 +16,7 @@ Creational design patterns are design patterns that deal with object creation me
 Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
 
 - Facade: Provides a simple interface to a more complex underlying object
-- Decorator (pending): Allows for an object’s behavior to be extended dynamically at run time.
+- Decorator: Allows for an object’s behavior to be extended dynamically at run time.
 - Proxy (pending): Provides a placeholder interface to an underlying object to control access, reduce cost, or reduce complexity.
 
 ### Behavior Design Patterns
